@@ -38,15 +38,7 @@ export default function Home() {
                   You are currently watcing various clips uploaded from 
                   xlShaadlx. Demo Project
                 </p>
-                <button
-                  className="disabled pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover:text-white md:mt-4"
-                  href="http://localhost:3000/"
-                  target="_blank"
-                  rel="noreferrer"
-                  disabled
-                >
-                  disabled
-                </button>
+                {/* */}
               </div>
               <VideoList videos={videos}/>
             </div>
