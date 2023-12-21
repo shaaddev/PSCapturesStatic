@@ -1,0 +1,8 @@
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hover-controls {
+    padding-bottom: 40px;
+}
